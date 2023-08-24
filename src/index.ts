@@ -75,7 +75,7 @@ class Locadora {
     bicicletas: Array<Bicicleta>
     clientes:  Array<Cliente>
 
-    constructor(nome: string, endereco: string, qnt_bicicletas: number, pedidos: Array<number>, atendentes: Array<Atendente>, bicicletas: Array<Bicicletas>, clientes: Array<Cliente>){
+    constructor(nome: string, endereco: string, qnt_bicicletas: number, pedidos: Array<number>, atendentes: Array<Atendente>, bicicletas: Array<Bicicleta>, clientes: Array<Cliente>){
         this.nome = nome
         this.endereco = endereco
         this.qnt_bicicletas = qnt_bicicletas
