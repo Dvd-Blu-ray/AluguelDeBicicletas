@@ -1,6 +1,6 @@
 console.log("Bem vindo à locadora de bicicletas Dvd-Bluray! :)")
 
-class Bicicleta {
+export class Bicicleta {
     codigo: number
     aro: number
     marca: string
@@ -15,7 +15,7 @@ class Bicicleta {
     }
 }
 
-class Cliente {
+export class Cliente {
     cpf: string
     nome: string
     endereco: string
