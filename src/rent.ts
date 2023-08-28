@@ -33,8 +33,8 @@ export class Rent {
             console.log("Bicicleta alugada com sucesso, "+cliente.nome+"! :)")
             return new Rent(bicicleta, cliente, startDate, endDate)
         }
-        // throw new Error ('Bicicleta já alugada, mané')
-        console.log("Bicicleta já alugada, mané")
+        // throw new Error ('Bicicleta já alugada')
+        console.log("Bicicleta já alugada")
         return null
     }
 
